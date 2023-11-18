@@ -1,0 +1,63 @@
+/* Styles de base pour le corps de la page */
+body {
+    background-color: #b77520; /* Couleur de fond de la page (remplacez par celle que vous souhaitez) */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur pour centrer le contenu */
+.container {
+    text-align: center; /* Centrer le contenu horizontalement */
+    max-width: 800px; /* Largeur maximale du contenu */
+    margin: 0 auto; /* Centrer le conteneur dans la page */
+    padding: 20px; /* Espace intérieur du conteneur */
+}
+
+/* Style du titre */
+h1 {
+    font-size: 36px; /* Taille du titre */
+    margin: 20px 0; /* Espace autour du titre */
+    color: rgb(241, 237, 237); /* Couleur du titre */
+}
+
+/* Style de l'image */
+img {
+    max-width: 100%; /* Largeur maximale pour l'image (s'adapte au conteneur) */
+    height: auto; /* Maintient le ratio d'aspect de l'image */
+    margin: 10px 0; /* Espace sous l'image */
+}
+
+/* Style du paragraphe de description */
+p {
+    font-size: 18px; /* Taille du texte du paragraphe */
+    font-weight: bold; /* Texte en gras */
+    margin: 10px 0; /* Espace autour du paragraphe */
+}
+
+/* Style pour le menu de navigation */
+nav ul {
+    list-style: none; /* Supprime les puces de la liste */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Affiche les éléments de navigation côte à côte */
+    margin-right: 20px; /* Espace entre les éléments */
+}
+
+nav a {
+    text-decoration: none; /* Supprime les styles de lien par défaut */
+    padding: 5px 10px; /* Espace intérieur pour les liens */
+    border: 1px solid #333; /* Bordure autour des liens */
+    background-color: #333; /* Couleur de fond des liens */
+    color: #fff; /* Couleur du texte des liens */
+    font-weight: bold; /* Police en gras */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+nav a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+    color: #fff; /* Couleur du texte au survol */
+}

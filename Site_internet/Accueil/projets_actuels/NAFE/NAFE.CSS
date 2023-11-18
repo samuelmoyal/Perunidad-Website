@@ -1,0 +1,148 @@
+body {
+    background-color: #ededed; /* Couleur de fond de la page (remplacez par celle que vous souhaitez) */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Image en arrière plan*/
+body {
+    background-image: url('ar_pl-pe.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: 100% auto;
+    background-attachment: scroll;/* Optionnel - permet de fixer l'image en arrière-plan */
+    background-position: top center; /* Position en haut au centre */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */ 
+}
+
+/* Conteneur pour centrer le contenu */
+.container {
+    text-align: center; /* Centrer le contenu horizontalement */
+    max-width: 2000px; /* Largeur maximale du contenu */
+    margin: 0 auto; /* Centrer le conteneur dans la page */
+    padding: 40px; /* Espace intérieur du conteneur */
+}
+
+
+/* Style pour le menu de navigation */
+nav ul {
+    list-style: none; /* Supprime les puces de la liste */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Affiche les éléments de navigation côte à côte */
+    margin-right: 20px; /* Espace entre les éléments */
+}
+
+nav a {
+    text-decoration: none; /* Supprime les styles de lien par défaut */
+    padding: 5px 10px; /* Espace intérieur pour les liens */
+    border: 1px solid #b77520; /* Bordure autour des liens */
+    background-color: #b77520; /* Couleur de fond des liens */
+    color: #fff; /* Couleur du texte des liens */
+    font-weight: bold; /* Police en gras */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+nav a:hover {
+    background-color: #b77520; /* Couleur de fond au survol */
+    color: #fff; /* Couleur du texte au survol */
+}
+
+
+
+/* Style du titre */
+h1 {
+    font-size: 56px; /* Taille du titre */
+    margin: 20px 0; /* Espace autour du titre */
+    color: rgb(241, 237, 237); /* Couleur du titre */
+}
+
+h2 {
+    font-size: 24px;
+    color: #b77520
+}
+
+/* Style des paragraphes de descriptionn */
+
+p {
+    font-size: 18px; /* Taille du texte du paragraphe */
+    font-weight: bold; /* Texte en gras */
+    margin: 10px 0; /* Espace autour du paragraphe */
+    color:#b77520
+}
+
+p.p2 {
+    font-size: 15px; /* Taille du texte du paragraphe */
+    margin: 10px 0; /* Espace autour du paragraphe */
+    color: black;
+
+}
+
+.section {
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+
+
+
+
+/* Style de l'image */
+.img_perunidad {
+    max-width: 20%; /* Largeur maximale pour l'image (s'adapte au conteneur) */
+    height: auto; /* Maintient le ratio d'aspect de l'image */
+    margin: 15px 0; /* Espace sous l'image */
+}
+
+
+
+
+/* Pour réduire la taille du logo */
+.img_logo_EP {
+    max-width: 10%; /* Ajustez la taille selon vos préférences */
+    height: auto;
+    margin: 15px 0;
+}
+
+/* Pour ajouter de l'espace entre les éléments de la liste "ep-list" */
+.ep-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ep-list li {
+    margin-bottom: 20px; /* Ajustez l'espace entre les éléments selon vos préférences */
+}
+
+/* Pour l'agencement des images avec légendes */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-item {
+    flex-basis: calc(28.33% - 10px); /* Pour deux éléments par ligne avec espacement */
+    margin: 10px;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-item p {
+    margin-top: 5px; /* Espace pour la légende */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    text-align: center; /* Centre horizontalement le contenu */
+    align-items: center;
+    margin: 10px 0;}

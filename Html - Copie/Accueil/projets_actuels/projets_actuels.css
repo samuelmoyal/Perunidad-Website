@@ -1,0 +1,31 @@
+
+/* Styles de base pour le corps de la page */
+body {
+    background-color: #b77520; /* Couleur de fond de la page (remplacez par celle que vous souhaitez) */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Styles pour le header */
+header {
+    background-color: #333; /* Couleur de fond du header */
+    color: #fff; /* Couleur du texte */
+    padding: 20px; /* Espace intérieur */
+    text-align: center; /* Centrer le contenu */
+}
+
+/* Styles pour la section */
+section {
+    background-color: #f0f0f0; /* Couleur de fond de la section */
+    padding: 20px; /* Espace intérieur */
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: #333; /* Couleur de fond du footer */
+    color: #fff; /* Couleur du texte */
+    padding: 10px; /* Espace intérieur */
+    text-align: center; /* Centrer le contenu */
+}
