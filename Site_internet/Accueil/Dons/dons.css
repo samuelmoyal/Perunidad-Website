@@ -101,3 +101,23 @@ nav a:hover {
     max-width: 20%; /* Largeur maximale pour l'image (s'adapte au conteneur) */
     height: auto; /* Maintient le ratio d'aspect de l'image */
     margin: 15px 0; /* Espace sous l'image */}
+
+
+.helloasso-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #c9831a; /* couleur de fond */
+    color: white; /* couleur du texte */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px; /* coins arrondis */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.helloasso-button:hover {
+    background-color: #cb891f; /* couleur de fond au survol */
+}
