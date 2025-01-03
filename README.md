@@ -23,7 +23,7 @@ The project is divided into two parts:
 This version of the **Perunidad** website is no longer live, as the management and development of the site have been taken over by the next team. The source code here reflects the work done during the time it was maintained by our team.
 
 The new version of the website can be accessed at:  
-[https://www.new-perunidad-website.com](https://perunidad.cs-campus.fr)
+[https://perunidad.cs-campus.fr](https://perunidad.cs-campus.fr)
 
 ---
 
